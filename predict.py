@@ -1,6 +1,4 @@
 from keras.models import load_model
-# import matplotlib.image as processimage
-# import matplotlib as plt
 import numpy as np
 from PIL import Image
 import os
