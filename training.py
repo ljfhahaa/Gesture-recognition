@@ -46,7 +46,7 @@ class Training():
             img = Image.open(folder + file)
             img = img.convert("L").resize((self.shape1, self.shape2))  # Convert to grayscale and resize
             img_list.append(folder + file)
-            label_list.append(int(file.split('_')[1][0]))  # 假设标签是文件名的一部分
+            label_list.append(int(file.split('_')[1][0]))  
         return img_list, label_list
 
     def train(self):
